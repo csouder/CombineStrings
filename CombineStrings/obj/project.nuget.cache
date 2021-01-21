@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3X/2ZxzqqCKQcwlqPrA4aw10lJcvoUbSNsgpW5Bivd2V8Kc79NLYaQxq3Woa+keDPx4CAfT7aTuOTgzlZgtWPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ChaseSouder\\source\\repos\\CombineStrings\\CombineStrings\\CombineStrings.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ChaseSouder\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ChaseSouder\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

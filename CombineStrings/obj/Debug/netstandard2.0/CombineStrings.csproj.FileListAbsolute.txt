@@ -1,0 +1,9 @@
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\bin\Debug\netstandard2.0\CombineStrings.deps.json
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\bin\Debug\netstandard2.0\CombineStrings.dll
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\bin\Debug\netstandard2.0\CombineStrings.pdb
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.AssemblyInfoInputs.cache
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.AssemblyInfo.cs
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.csproj.CoreCompileInputs.cache
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.dll
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.pdb
+C:\Users\ChaseSouder\source\repos\CombineStrings\CombineStrings\obj\Debug\netstandard2.0\CombineStrings.csprojAssemblyReference.cache
