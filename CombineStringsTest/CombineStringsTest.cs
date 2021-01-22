@@ -20,15 +20,6 @@ namespace CombineStringsTest {
             Assert.AreEqual(expected, tester);
         }
 
-        //Test default constructor
-        [TestMethod]
-        public void defaulttest()
-        {
-            Combiner defaulttest = new Combiner();
-            string finalstring = defaulttest.GetCombination();
-            Assert.AreEqual("This-is-default", finalstring);
-        }
-
         [TestMethod]
         [Owner("Chase")]
         [TestCategory("NULLs")]

@@ -6,27 +6,17 @@ namespace CombineStrings
 {
     public class Combiner
     {
-        private string[] fragments;
-        private char divider;
 
-        public Combiner()
-        {
-            this.divider = '-';
-            this.fragments = new string[] {"This","is","default"};
-        }
-        public Combiner(char divider, string[] fragments)
-        {
-            this.divider = divider;
-            this.fragments = fragments;
-        }
-
-        //Returns the combination of string fragments with the dividers in place
-        public string GetCombination()
+        /// <summary>
+        /// Combines/joins the supplied <paramref name="fragments"/> and ensures
+        /// only one instance of <paramref name="separator"/> between them.
+        /// </summary>
+        public static string GetCombination(char separator, params string[] fragments)
         {
             string combo = "";
-            foreach (string part in this.fragments)
+            foreach (string part in fragments)
             {
-                combo += part + this.divider;
+                combo += part + separator;
             }
             string final = combo.Remove(combo.Length - 1); // Remove divider at end from last loop iteration
             return final;
@@ -49,11 +39,10 @@ namespace CombineStrings
             {
                 throw new ArgumentNullException("fragments");
             }
-            var tester = new Combiner(separator, fragments);
-            string fullstring = "";
+            var fullstring = "";
             try
             {
-                fullstring = tester.GetCombination();
+                fullstring = GetCombination(separator, fragments);
             }
             catch (Exception)
             {
